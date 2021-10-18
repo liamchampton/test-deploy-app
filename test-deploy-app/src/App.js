@@ -1,13 +1,13 @@
-import logo from './logo.svg';
+import HomepageImage from './components/HomepageImage';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <HomepageImage />
         <p>
-          Welcome to this application. This can be used to test a deployment!
+          Welcome! This can be used to test a deployment.
         </p>
         <a
           className="App-link"
