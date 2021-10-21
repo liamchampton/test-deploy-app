@@ -39,3 +39,5 @@ $ docker run \
     -e CHOKIDAR_USEPOLLING=true \
    test-deploy-app:dev
 ```
+
+:rotating_light: **If you are using Docker, the application will be running at `localhost:3001`** :rotating_light:
